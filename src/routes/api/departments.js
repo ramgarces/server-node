@@ -15,7 +15,7 @@ router.get('/:id', async (req, res) => {
     if (department) {
         res.send(department)
     } else {
-        res.status(404).send({msg:'Company not found'})
+        res.status(404).send({msg:'Department not found'})
     }
 })
 
